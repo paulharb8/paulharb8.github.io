@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>More • My Website</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="index.html">My Site</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="about.html">More</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="content-card">
+      <h2>Projects & Interests</h2>
+      <!-- ~210–230 words; keep ≥ 200 -->
+      <p>
+        This page expands on a few areas I’m exploring in more depth. I like projects that help me learn by doing,
+        especially if they involve telling a story with data or building something that others can use. When I work on
+        web projects, I aim for clean structure, clear writing, and simple layouts that are easy to navigate. I try to
+        write content that stands on its own, even for readers who are unfamiliar with the topic. For visuals, I focus
+        on consistency in spacing, typography, and color, so the design supports the message instead of distracting from it.
+      </p>
+      <p>
+        I also enjoy small experiments—like testing different chart types, learning how CSS layout works in different
+        scenarios, or creating short guides for classmates. These experiments often lead to useful patterns I can reuse:
+        navigation bars that are easy to scan, card layouts that work well on mobile, and color palettes that balance
+        contrast and personality. Over time, I want to grow this site into a collection of small, polished examples
+        that reflect what I’m learning. If you have feedback, I’m always open to suggestions!
+      </p>
+
+      <img class="inline-image" src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop"
+           alt="Laptop and notebook on a desk" />
+
+      <h3>Things I’m focusing on right now</h3>
+      <ul>
+        <li>Improving writing and page structure for clarity</li>
+        <li>Trying out new color palettes and typography</li>
+        <li>Building small visualizations and interactive components</li>
+        <li>Creating reusable UI patterns (cards, nav, grids)</li>
+      </ul>
+    </section>
+
+    <section class="content-card">
+      <h2>Contact</h2>
+      <p>
+        Email: <a href="mailto:yourname@example.com">yourname@example.com</a> ·
+        LinkedIn: <a href="https://www.linkedin.com/" target="_blank" rel="noopener">Profile</a> ·
+        GitHub: <a href="https://github.com/" target="_blank" rel="noopener">Repos</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Your Name</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
