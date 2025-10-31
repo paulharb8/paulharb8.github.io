@@ -1,0 +1,42 @@
+My Personal Website – Paul Harb
+
+Website Link:
+https://paulharb8.github.io
+
+Styling & Customizations Description
+
+My website was designed and styled using custom CSS, with several features that go beyond basic styling requirements.
+Below are all the customizations implemented:
+
+Custom Fonts and Typography
+
+I imported and used Inter for body text and Playfair Display for headings through Google Fonts.
+This combination creates a professional but modern tone that makes the text easy to read and visually distinct.
+
+Custom Color Scheme
+The site uses a dark background theme with cyan and purple accent colors.
+Text and link colors were chosen for strong contrast and accessibility.
+Subtle gradients and soft highlights were added to create visual depth.
+
+Custom Layout and Spacing
+Implemented a responsive grid layout for the home page hero section (image + text side-by-side).
+Used consistent margins, padding, and rounded corners across cards and images to maintain a clean, balanced structure.
+
+Navigation Bar Styling
+Added a sticky, semi-transparent navigation bar that remains at the top while scrolling.
+Includes hover effects that change background opacity for a smooth user experience.
+
+Visual Effects & Shadows
+Used box-shadows and blurred backgrounds on cards to give a “glass” effect.
+Added gentle hover transitions for buttons and links.
+
+Responsive Design
+The layout automatically adjusts for smaller screens using CSS media queries.
+Images and text stack vertically on mobile for readability.
+
+Radial Gradient Backgrounds
+Subtle radial gradient overlays add depth and visual polish to the background without distracting from the content.
+
+Summary
+
+Overall, the website reflects clean structure, modern design, and readability. The CSS customizations improve both aesthetics and usability, ensuring the site looks professional across devices while meeting all project requirements.
